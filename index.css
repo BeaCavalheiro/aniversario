@@ -1,0 +1,24 @@
+.div {
+    background: rgb(126,31,50);
+background: -moz-radial-gradient(circle, rgba(126,31,50,1) 18%, rgb(255, 255, 255) 73%);
+background: -webkit-radial-gradient(circle, rgba(126,31,50,1) 18%, rgba(23,30,75,1) 73%);
+background: radial-gradient(circle, rgba(126,31,50,1) 18%, rgba(23,30,75,1) 73%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7e1f32",endColorstr="#171e4b",GradientType=1);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+  
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    size: 300px;
+    
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+
