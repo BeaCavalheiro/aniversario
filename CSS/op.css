@@ -1,0 +1,39 @@
+section{
+    display: flex;
+    margin: auto;
+   
+}
+article{
+    margin: auto;
+    width: 60%;
+    background-color:#d38893 ;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color:#000000;
+}
+.p1{
+    text-align: center;
+    font-size: x-large;
+}
+@media screen and ( max-width:455px) {
+    section{
+        display:flex;
+        flex-wrap: wrap;
+              
+    }
+    img{
+           display: flex;  
+        height: 30vh !important;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    article{
+        margin-top: 10%;
+        width: 80vw;
+        
+    }
+}
