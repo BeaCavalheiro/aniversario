@@ -54,6 +54,9 @@ font-family: 'Dancing Script', cursive;
  margin: auto;
  
 }
+.imagem{
+    height: 100vh;
+}
 
 @media screen and ( max-width:500px){
     h1{
@@ -61,6 +64,7 @@ font-family: 'Dancing Script', cursive;
     }
    .imagem{
         width: 100vw !important;
+        height: auto;
     }
 }
 @media screen and ( max-width:1000px) {
