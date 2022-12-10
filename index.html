@@ -15,7 +15,23 @@
     
 </head>
 <body>
+ 
+<!-- Modal -->
 
+
+<!-- Modal -->
+<div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    < class="modal-content">
+      <div class="modal-header">
+           
+      
+       <img src="./IMG/1.png" alt="" style="height: 100vh;">
+      
+      
+    </div>
+  </div>
+</div>
     <div class="div">
      
         <header> 
@@ -37,23 +53,7 @@
                   </div>
                 </div>
               </nav>
-<div class="modal" tabindex="-1">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
-          </div>
-        </div>
-      </div>
+
             <h1> <big>30</big>  Da  <Strong><big>Bea</big></Strong></h1>
                   
         </header>
@@ -67,5 +67,15 @@
     <script src="./index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <style> @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=PT+Sans:ital@1&display=swap'); </style>
+    <!-- jquery -->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<!-- bootstrap -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- chamada da função -->
+<script type="text/javascript">
+$(window).load(function() {
+    $('#exampleModalCenter').modal('show');
+});
+</script>
 </body>
 </html>
