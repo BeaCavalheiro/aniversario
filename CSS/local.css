@@ -1,0 +1,30 @@
+section{
+    display: flex;
+    margin: auto;
+   align-items: center;
+    justify-content: center;
+}
+article{
+    margin: 20px;
+    width: 30%;
+    background-color:#d38893 ;
+    border-radius: 10px;
+}
+p{
+    color:#000000;
+}
+@media screen and ( max-width:745px) {
+    section{
+        display: block;
+        margin: auto;
+    }
+    iframe{
+        display: flex;
+        width: auto;
+        height: 150px;
+        margin: auto;
+    }
+    article{
+        width: auto;
+    }
+}
