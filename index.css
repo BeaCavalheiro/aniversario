@@ -59,8 +59,8 @@ font-family: 'Dancing Script', cursive;
     h1{
         font-size: 50px !important;
     }
-    modal{
-        width: 90vw;
+   .imagem{
+        width: 100vw !important;
     }
 }
 @media screen and ( max-width:1000px) {
@@ -77,7 +77,7 @@ font-family: 'Dancing Script', cursive;
 
  
 }
-
+ 
 }
 
     
