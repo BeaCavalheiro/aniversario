@@ -1,13 +1,39 @@
 .div {
     flex-direction: column;
+    background: rgb(198,125,136);
+    background: -moz-linear-gradient(347deg, rgba(198,125,136,1) 1%, rgba(198,125,136,1) 5%, rgba(168,95,106,1) 10%, rgba(153,80,91,1) 23%, rgba(0,0,0,1) 45%);
+    background: -webkit-linear-gradient(347deg, rgba(198,125,136,1) 1%, rgba(198,125,136,1) 5%, rgba(168,95,106,1) 10%, rgba(153,80,91,1) 23%, rgba(0,0,0,1) 45%);
+    background: linear-gradient(347deg, rgba(198,125,136,1) 1%, rgba(198,125,136,1) 5%, rgba(168,95,106,1) 10%, rgba(153,80,91,1) 23%, rgba(0,0,0,1) 45%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c67d88",endColorstr="#000000",GradientType=1);
+    background-size: contain;
+    height:100vh; 
+}
+header{
+    height: 30vh;
+}
+nav{
+    background: rgb(190,114,125);
+    background: -moz-linear-gradient(175deg, rgba(190,114,125,1) 11%, rgba(190,114,125,1) 18%, rgba(190,114,125,1) 25%, rgba(153,80,91,1) 39%, rgba(153,80,91,1) 42%, rgba(153,80,91,1) 46%, rgba(153,80,91,1) 48%, rgba(0,0,0,0.6737704918032787) 53%);
+    background: -webkit-linear-gradient(175deg, rgba(190,114,125,1) 11%, rgba(190,114,125,1) 18%, rgba(190,114,125,1) 25%, rgba(153,80,91,1) 39%, rgba(153,80,91,1) 42%, rgba(153,80,91,1) 46%, rgba(153,80,91,1) 48%, rgba(0,0,0,0.6737704918032787) 53%);
+    background: linear-gradient(175deg, rgba(190,114,125,1) 11%, rgba(190,114,125,1) 18%, rgba(190,114,125,1) 25%, rgba(153,80,91,1) 39%, rgba(153,80,91,1) 42%, rgba(153,80,91,1) 46%, rgba(153,80,91,1) 48%, rgba(0,0,0,0.6737704918032787) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be727d",endColorstr="#000000",GradientType=1);
+}
+.nav-link{
+    color: #000000 !important;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    
 }
     
-
 h1{
     display: flex;
-  background-image: radial-gradient(circle at 74.18% 116.45%, #775c53 0, #765851 6.25%, #75524f 12.5%, #744c4c 18.75%, #71454a 25%, #6d3c48 31.25%, #683346 37.5%, #612945 43.75%, #591f44 50%, #4f1544 56.25%, #430d45 62.5%, #360947 68.75%, #25094a 75%, #090b4c 81.25%, #000c4f 87.5%, #000c51 93.75%, #000c52 100%);
+    background: rgb(153,80,91);
+background: -moz-linear-gradient(175deg, rgba(153,80,91,1) 10%, rgba(25,13,15,1) 13%, rgba(0,0,0,1) 53%);
+background: -webkit-linear-gradient(175deg, rgba(153,80,91,1) 10%, rgba(25,13,15,1) 13%, rgba(0,0,0,1) 53%);
+background: linear-gradient(175deg, rgba(153,80,91,1) 10%, rgba(25,13,15,1) 13%, rgba(0,0,0,1) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#99505b",endColorstr="#000000",GradientType=1);
 font-family: 'Dancing Script', cursive;
-    color: rgb(255, 255, 255);
+    color: rgb(153,80,91);
     align-items: center;
     justify-content: center;
     text-emphasis-position: initial;
@@ -15,7 +41,7 @@ font-family: 'Dancing Script', cursive;
     margin:auto;
     padding: auto;
     width: 100%;
-    height: 150px;
+    height: 80%;
     size: 300px;
     
 }
@@ -23,12 +49,12 @@ font-family: 'Dancing Script', cursive;
     position: sticky;
     top: 0;
 }
+
 .bolo{
     display: flex;
-    width: 80%;
+    height: 70vh;
+ margin: auto;
  
-  justify-content: center;
-  align-items: center;
 }
 .ball{
     display: flex;
@@ -37,4 +63,19 @@ font-family: 'Dancing Script', cursive;
 
 }
 
-
+@media screen and ( max-width:1000px) {
+    h1{
+        background: #000000;
+    }
+    nav{
+        background:rgb(153,80,91) ;
+    }
+   
+.bolo{
+    display: flex;
+    width: 100%;
+ margin: auto;
+ 
+}
+    
+}
