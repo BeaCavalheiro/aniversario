@@ -6,7 +6,7 @@
     background: linear-gradient(347deg, rgba(198,125,136,1) 1%, rgba(198,125,136,1) 5%, rgba(168,95,106,1) 10%, rgba(153,80,91,1) 23%, rgba(0,0,0,1) 45%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c67d88",endColorstr="#000000",GradientType=1);
     background-size: contain;
-    height:100vh; 
+    
 }
 header{
     height: 30vh;
@@ -47,14 +47,6 @@ font-family: 'Dancing Script', cursive;
     
 }
 
-
-.bolo{
-    display: flex;
-    height: 70vh;
- margin: auto;
- 
-}
-
 @media screen and ( max-width:500px){
     h1{
         font-size: 50px !important;
@@ -68,14 +60,11 @@ font-family: 'Dancing Script', cursive;
         background:#99505b ;
     }
    
-.bolo{
+
+
+}
+section{
     display: flex;
-    width: 100%;
-
- 
-}
+    justify-content: center;
 
 }
-
-    
-
