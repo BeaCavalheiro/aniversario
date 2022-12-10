@@ -13,6 +13,10 @@ article{
 p{
     color:#000000;
 }
+.p1{
+    text-align: center;
+    font-size: x-large;
+}
 @media screen and ( max-width:745px) {
     section{
         display: block;
