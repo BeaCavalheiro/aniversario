@@ -1,0 +1,36 @@
+.img{
+    display: flex;
+     align-items: center;
+     justify-content: center
+}
+.im1{
+    width: 40vw; 
+    margin-top: 20px
+}
+.im2{
+    width: 50vw; 
+    margin-top: 20px
+}
+@media screen and ( max-width:500px) {
+
+
+    .im1{
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 100vw; 
+        margin-top: 20px
+        
+    }
+    .im2{
+        
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        width: 100vw; 
+        margin-top: 20px
+        
+    }
+    
+}
